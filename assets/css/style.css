@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+
+/* add modia query for mobil devices */
+@media (max-width: 768px) {
+  .desktop_menu {
+    display: none;
+  }
+
+  header {
+    padding: 16px 8px;
+    border: 1px solid;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .logo a {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    color: #36b37e;
+    font-weight: 700;
+  }
+
+  .mobile_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: end;
+  }
+
+  .mobile_menu p {
+    background-color: #000;
+    padding: 1px 15px;
+  }
+
+  .home {
+    padding: 70px 10px;
+    background: url(../images/background.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .home h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #36b37e;
+    line-height: 52px;
+  }
+
+  .home h1 span {
+    color: #000;
+  }
+
+  .home p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    padding: 10px 30px;
+  }
+
+  .home ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+  }
+}
