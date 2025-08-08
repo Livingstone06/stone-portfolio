@@ -110,7 +110,7 @@ sh
 
 👤 kamdem livingstone
 
-- GitHub: [kamdemlivingstone](https://github.com/teguialivingstone)
+- GitHub: [kamdemlivingstone](https://github.com/Livingstone06)
 
  FUTURE FEATURES 
 
